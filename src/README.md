@@ -1,6 +1,6 @@
 # vue-tasks
 
-## Page initial
+## Home Page
 
 ![start](https://github.com/espinhara/vue-tasks/blob/master/assets/tasks-initial.png)
 
