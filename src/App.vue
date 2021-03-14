@@ -2,7 +2,7 @@
 	<div id="app">
 		<h1>Tasks</h1>
 		<NewTask @taskAdded="addTask" />
-		<TaskProgress :progress="progress"/>
+		<TaskProgress v-if="tasks.length" :progress="progress"/>
 		<Tasks @deleteTask="deleteTask" @clickedTask="clickedTask" @doneTask="doneTask" :tasks="tasks"/>
 	</div>
 </template>
